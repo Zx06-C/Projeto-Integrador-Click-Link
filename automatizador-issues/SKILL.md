@@ -1,5 +1,5 @@
 ---
-name: github-task-automator
+name: automatizador-issues
 description: "Automatiza a criação de sub-tarefas (issues) no GitHub a partir de uma descrição de feature. Use para: gerar e enviar sub-tarefas detalhadas para um repositório GitHub."
 ---
 
