@@ -7,37 +7,48 @@
 
 header {
   width: 100%;
-  padding: 40px 0;
+  padding: 35px 0;
   background-color: black;
+  
 }
 
 .interface {
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 5%;
 }
 
 header .interface {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
+header .interface .menu{
+  justify-content: center;
+  align-items: center;
+}
+
+header .interface .logo{
+  display: flex;
+  align-items: center;
+  margin-right: 380px;
+}
+
 header .interface .logo img {
-  width: 40px;
+  width: 200px;
 }
 
 ul {
   display: flex;
   justify-content: center;
-  align-items: 10px;
+  align-items: 30px;
   position: relative;
-  gap: 25px;
+  gap: 80px;
 }
 
 ul li {
   position: relative;
   list-style: none;
-  width: 60px;
+  width: 90px;
   height: 60px;
   background: white;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
